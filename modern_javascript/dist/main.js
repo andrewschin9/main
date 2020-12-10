@@ -1427,7 +1427,7 @@ eval("/* module decorator */ module = __webpack_require__.nmd(module);\n//! mome
 /*!******************!*
   !*** ./index.js ***!
   \******************/
-eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\"); // require\n\n\n//# sourceURL=webpack:///./index.js?");
+eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\"); // require\n\n\nconsole.log(\"testing...\");\nvar bob = {\n  _name: \"Bob\",\n  _friends: [\"Jane\", \"Jack\", \"Bruce\"],\n  printFriends: function printFriends() {\n    var _this = this;\n\n    this._friends.forEach(function (f) {\n      return console.log(_this._name + \" knows \" + f);\n    });\n  }\n};\nconsole.log(\"testing part 2...\");\n\n//# sourceURL=webpack:///./index.js?");
 })();
 
 /******/ })()
