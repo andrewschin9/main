@@ -1,0 +1,2 @@
+class HoldSet < ApplicationRecord
+end

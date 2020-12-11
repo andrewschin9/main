@@ -1,0 +1,2 @@
+class SelectedHold < ApplicationRecord
+end
