@@ -32,7 +32,7 @@ ActiveRecord::Schema.define(version: 2020_12_11_023112) do
     t.integer "hold_set_id"
     t.string "hold_position"
     t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: falsera
+    t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "problems", force: :cascade do |t|
